@@ -1,0 +1,53 @@
+body {
+  background-color: #f7ecde;
+}
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 500;
+  font-size: 50px;
+  border-bottom: dotted;
+}
+.colored {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, red, blue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h1 {
+  position: relative;
+  font-size: 3em;
+  padding: 10px;
+  overflow: hidden;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  height: 14%;
+  width: 20%;
+  background-color: #fec260;
+  transition: height 0.5s ease-in-out;
+  z-index: -1;
+  bottom: 50px;
+}
+
+h1:hover::before {
+  height: 35%;
+}
+
+/* Valid input field */
+.valid {
+  border-color: green;
+  background-color: lightgreen;
+}
+
+/* Invalid input field */
+.invalid {
+  border-color: red;
+  background-color: lightcoral;
+}
