@@ -7,13 +7,13 @@ The **Bookmarker Project** is a simple web application that allows users to save
 - Add new bookmarks with website name and URL
 - Delete bookmarks
 - Responsive design for mobile and desktop users
-- Stores bookmarks in local storage (or backend API integration if applicable)
+- Stores bookmarks in local storage
 
 ## 🛠️ Technologies Used
 - **HTML**: Structure of the application
 - **CSS**: Styling for better UI/UX
 - **JavaScript**: Functionality and interactivity
-- **Local Storage** (if used) to save bookmarks persistently
+- **Local Storage** to save bookmarks persistently
 
 ## 📷 Screenshots
 ![download](https://github.com/user-attachments/assets/2e312c03-8027-4687-a89b-bd2623720c17)
